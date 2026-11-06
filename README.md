@@ -2,6 +2,41 @@
 
 Next.js (solo API) + PostgreSQL + Cloudinary. El sitio y el panel de administración (proyecto `agencia-viajes`, Vite + React) hablan con esta API.
 
+## Descripción
+
+Gestor de Viajes es una aplicación web para publicar y administrar la oferta de una agencia de turismo. El sitio público permite explorar paquetes, consultar sus detalles y enviar consultas; el panel privado permite gestionar viajes, destinos, imágenes y consultas recibidas. Este repositorio contiene la API que conecta ambas partes, guarda la información en PostgreSQL y gestiona las imágenes con Cloudinary.
+
+## Enlaces
+
+- **Demo:** [demo-gestorviajes.onrender.com](https://demo-gestorviajes.onrender.com/)
+- **Frontend:** [Gestor-de-Viajes-Frontend en GitHub](https://github.com/LautaroSch-hub/Gestor-de-Viajes-Frontend.git)
+
+## Capturas de pantalla
+
+<details>
+<summary>Sitio público</summary>
+
+![Catálogo de viajes](docs/screenshots/catalogo.png)
+
+![Catálogo de paquetes](docs/screenshots/catalogo-paquetes.png)
+
+![Formulario de consultas](docs/screenshots/catalogo-consulta.png)
+
+</details>
+
+<details>
+<summary>Panel de administración</summary>
+
+![Resumen del panel](docs/screenshots/admin-resumen.png)
+
+![Administración de destinos](docs/screenshots/admin-destinos.png)
+
+![Edición de destino](docs/screenshots/admin-editar-destino.png)
+
+![Administración de viajes](docs/screenshots/admin-viajes.png)
+
+</details>
+
 ## Puesta en marcha
 
 Requisitos: Node 20 o más nuevo y PostgreSQL 14 o más nuevo.
